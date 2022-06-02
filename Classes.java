@@ -1,7 +1,7 @@
 public class Elevador { 
 
     public class Posicao{
-        public int andar;
+        private int andar;
 	    public int Descer(){
             return(andar-1);
         }
@@ -11,7 +11,7 @@ public class Elevador {
     }
 
     public class Capacidade{
-        public int quantidade;
+        private int quantidade;
 	    public int Sair(){
             return(quantidade-1);
         }
